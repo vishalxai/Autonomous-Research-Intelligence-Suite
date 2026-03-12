@@ -1,0 +1,19 @@
+# 1. Virtual Environment (The 117MB folder)
+venv/
+env/
+.env
+
+# 2. Python specific junk
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 4. OS Specific (Mac)
+.DS_Store
+
+# 5. Local API Keys & Data (Keep your OpenAI/OpenRouter keys safe)
+.env
+.env.local
